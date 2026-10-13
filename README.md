@@ -35,6 +35,16 @@ Contacting the 660 highest-risk test customers returns about **$52,000 net**, fo
 
 ![Campaign value](images/campaign_value.png)
 
+## Interactive app
+
+`app.py` is a Streamlit app: set a customer's contract, tenure, charges and services, and it shows the churn probability, the SHAP drivers behind it and suggested retention actions.
+
+![App screenshot](images/app_screenshot.png)
+
+```bash
+streamlit run app.py
+```
+
 ## How to run
 
 ```bash
